@@ -60,7 +60,7 @@ go get github.com/go-sql-driver/mysql
 ```bash
 go run main.go
 ```
-## Database Setup
+## DatabaseSetup
 
 Run the sql files that have been uploaded in the Database folder in the orfer of
 - CreateTables.sql
