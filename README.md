@@ -8,6 +8,7 @@ It was built using Golang for backend and React.js for frontend
 
 - [Features](#features)
 - [Installation](#installation)
+- [Database Setup](#databasesetup)
 
 ## Features
 
@@ -59,3 +60,29 @@ go get github.com/go-sql-driver/mysql
 ```bash
 go run main.go
 ```
+## Database Setup
+
+Run the sql files that have been uploaded in the Database folder in the orfer of
+- CreateTables.sql
+- InsertRoles.sql
+- InsertUsersandGroups.sql
+- InsertTaskDets.sql
+
+In your local mysql command client – run the command 
+```bash
+source path_to_your_sqlfile
+```
+
+User’s passwords have been hashed and stored – for security purposes <br>
+For testing the application – Login Credentials
+
+| Username    | Location |
+| ----------- | -------- |
+| sowmya1211  | _User1_  |
+| karan02     | _User2_  |
+| johnm3      | _User3_  |
+| Shru23      | _User4_  |
+| Abhi21      | _User5_  |
+| Avi         | _User6_  |
+| taylor13    | _User7_  |
+| varsha21    | _User8_  |
